@@ -1,0 +1,33 @@
+html{
+    background-color: aquamarine;
+}
+body{
+    background-color:white;
+    color:#676767;
+}
+p{
+    background-color: goldenrod;
+    color: black;
+}
+.style_my_para{
+    color: rgb(49, 19, 216);
+    font-size: x-large;
+}
+.edit_my_style{
+    background-color: chartreuse;
+    padding: auto;
+    font-size: x-large;
+}
+
+
+#get_style{
+    margin: 20px;
+    border-bottom: 2px solid black;
+    color: #676767;
+    padding: 2px;;
+    background-color: burlywood;
+}
+#get_text{
+    text-align: center;
+    text-underline-position: above;
+}

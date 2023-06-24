@@ -1,0 +1,14 @@
+ h1,h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+p{
+    background-color: aliceblue;
+    font-style: inherit;
+}
+span{
+    color: yellowgreen;
+    font-style: italic;
+    font-size: x-large;
+}

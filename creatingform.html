@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form name="frm">
+        <table border="1px" width="500px">
+            <tr>
+                <th colspan="2">Registration form</th>
+            </tr>
+            <tr>
+                <td>Registration ID</td>
+                <td><input type="text" name="regid" value=""></td>
+            </tr>
+        <tr>
+            <td>Fullname</td>
+            <td><input type="text" name="Fullname" value=""></td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="Email ID" value=""></td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td><input type="password" name="password" value=""></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" name="Mobile Number" value=""></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" name="Age" value=""></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="text" name="dataofbirth" value=""></td>
+        </tr>
+
+        <tr>
+            <td>online courses</td>
+            <td>
+                <input type="radio" name="online course" value="core java">core java
+                <input type="radio" name="online course" value="python">python
+                <input type="radio" name="online course" value="oracle">oracle
+            </td>
+        </tr>
+        <tr>
+            <td>Eligibility</td>
+            <td>
+                <input type="checkbox" name="offline_courses" value="inter">inter
+                <input type="checkbox" name="offline_courses" value="degree">degree
+                <input type="checkbox" name="offline_courses" value="Pg">Pg
+                <input type="checkbox" name="offline_courses" value="phd">phd
+            </td>
+        </tr>
+        <tr>
+            <td>Languages</td>
+            <td>
+                <select name="languages" multiple>
+                    <option value="choose any option">choose any option</option>
+                    <option value="hindi">hindi</option>
+                    <option value="english">english</option>
+                    <option value="spanish">telugu</option>
+                    <option value="other">other</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>File Upload</td>
+            <td><input type="file" name="file_upload" multiple></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>
+                <textarea name="description" id="" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

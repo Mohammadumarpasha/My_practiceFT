@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(66, 70, 73);
+}
+body{
+    background-color:rgb(227, 229, 241);
+    color:#eebd62 ;
+}
+h1,h3{
+    color: rgba(105, 7, 105, 0.2);
+    background-color: #b6b7;
+    text-align: center;
+}
